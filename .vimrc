@@ -42,7 +42,7 @@ nnoremap <leader>in o#include <lt>><esc>i
 nnoremap <leader>ts Ypi} <esc>A;<esc>kItypedef struct <esc>o{<esc>o
 
 " \b will convert a line into a c++ style /// document block
-nnoremap <leader>b :ce<cr>0R///<esc>$100a <esc>78\|R///<esc>lDO<esc>80a/<esc>Yjp2o<esc>
+nnoremap <leader>b :ce<cr>0R///<esc>$100a <esc>78\|R///<esc>lDO<esc>80a/<esc>Yjpo<esc>
 
 " \hb will convert a line into a haskell style -- document block
-nnoremap <leader>hb :ce<cr>0R-- \|<esc>$100a <esc>77\|R\| --<esc>lDO-- +<esc>72a-<esc>a+ --<esc>Yjp2o<esc>
+nnoremap <leader>hb :ce<cr>0R-- \|<esc>$100a <esc>77\|R\| --<esc>lDO-- +<esc>72a-<esc>a+ --<esc>Yjpo<esc>
